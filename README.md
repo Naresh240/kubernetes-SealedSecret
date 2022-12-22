@@ -83,7 +83,7 @@ kubectl apply -f configmaps.yml
 kubectl apply -f sealed-secret-mysql.yaml         # This secret will be unseal using controller and master.pem file
 kubectl apply -f deployment.yml
 ```
-```Note:``` Push sealed secret file to Github and share master.pem personally who required to unseal
+```Note:``` Push sealed secret file to Github and share master.pem personally who required to unseal, Here I have given master key for understanding
 
 ## Connect to mysql pod
 
